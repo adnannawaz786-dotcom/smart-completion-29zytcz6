@@ -2,9 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import { ThemeProvider } from 'next-themes'
 import { Toaster } from 'sonner'
-import Dashboard from './pages/Dashboard'
 import DocumentEditor from './pages/DocumentEditor'
-import Settings from './pages/Settings'
 import { cn } from './lib/utils'
 
 function App() {
